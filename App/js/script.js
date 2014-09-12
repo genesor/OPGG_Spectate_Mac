@@ -4,8 +4,6 @@ var fs = require('fs');
 var exec = require('child_process').exec;
 
 
-console.log('pute');
-
 window.ondragover = window.ondrop = function(e) { e.preventDefault(); return false; }
 
 var el = document.querySelector('#awesome')
