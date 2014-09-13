@@ -54,3 +54,8 @@ el.ondrop = function(e) {
   });
 
 }
+
+
+Mousetrap.bind(['command+q', 'command+w', 'command+option+esc'], function(e) {
+    window.close();
+});
