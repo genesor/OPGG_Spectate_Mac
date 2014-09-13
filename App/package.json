@@ -1,1 +1,1 @@
-{"name":"OP.GG Spectate","main":"index.html","description":"Spectate launcher for mac","version":"1.0.1","window":{"toolbar":true,"title":"OP.GG Spectate","position":"center","width":360,"height":300,"min_width":220,"min_height":220,"resizable":false}}
+{"name":"OP.GG Spectate","main":"index.html","description":"Spectate launcher for mac","version":"1.0.1","window":{"toolbar":false,"title":"OP.GG Spectate","position":"center","width":360,"height":300,"min_width":220,"min_height":220,"resizable":false}}
