@@ -2,6 +2,9 @@
 var path = require('path');
 var fs = require('fs');
 var exec = require('child_process').exec;
+var gui = require('nw.gui'); //or global.window.nwDispatcher.requireNwGui() (see https://github.com/rogerwang/node-webkit/issues/707)
+// Get the current window
+var win = gui.Window.get();
 
 
 window.ondragover = window.ondrop = function(e) { e.preventDefault(); return false; }
@@ -58,3 +61,6 @@ el.ondrop = function(e) {
 Mousetrap.bind(['command+q', 'command+w', 'command+option+esc'], function(e) {
     window.close();
 });
+Mousetrap.bind('command+m', function(e){
+  win.minimize();
+})
