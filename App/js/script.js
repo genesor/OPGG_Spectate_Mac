@@ -6,7 +6,7 @@ var exec = require('child_process').exec;
 
 window.ondragover = window.ondrop = function(e) { e.preventDefault(); return false; }
 
-var el = document.querySelector('#awesome')
+var el = document.querySelector('#awesome');
 
 el.ondragover = function(){
   this.className = 'hover';
@@ -54,7 +54,6 @@ el.ondrop = function(e) {
   });
 
 }
-
 
 Mousetrap.bind(['command+q', 'command+w', 'command+option+esc'], function(e) {
     window.close();
